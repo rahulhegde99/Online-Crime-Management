@@ -12,6 +12,7 @@ This is an online crime/police management system
  - [x] Deleting police officers
  - [x] Assigment of cases
  - [x] Complaint details for Users, Police, Incharge and Headquarters
+ - [x] Credits page
  
 ## ISSUES ##
  - Redirecting back and forth between login and registration pages is not secure
@@ -19,7 +20,6 @@ This is an online crime/police management system
  ## TODO ##
   - [ ] Triggers and stored procedures
   - [ ] Better graphics
-  - [ ] Credits page
 
  ## INSTRUCTIONS ##
   1. Download PHP 5
