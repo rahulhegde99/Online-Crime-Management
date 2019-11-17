@@ -1,3 +1,9 @@
+<!-- Author: Rahul Hegde, Gunashree 
+      
+Will work only if a user has logged in with User ID and Password.
+Returns the history of a complaints filed by that User ID 
+
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +18,7 @@
     mysql_select_db("crime_portal",$conn);
     
     if(!isset($_SESSION['x']))
-    header("location:userlogin.php");
+      header("location:userlogin.php");
     
         $u_id=$_SESSION['u_id'];
         $result1=mysql_query("SELECT a_no FROM user where u_id='$u_id'",$conn);

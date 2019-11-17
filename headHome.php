@@ -1,3 +1,9 @@
+<!-- Author: Rahul Hegde, Gunashree 
+      
+Will work only if a head has logged in with HQ ID and Password.
+Has search bars to search using case ID or search with location. 
+
+-->
 <!DOCTYPE html>
 <html>
 <head>

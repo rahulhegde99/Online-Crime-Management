@@ -1,6 +1,6 @@
 <!-- Author: Rahul Hegde, Gunashree 
       
-Index Pages, has sign up, user login and officer login features. 
+Credits page has sign up, user login and officer login features. 
 
 -->
 <!DOCTYPE html>
@@ -17,6 +17,7 @@ Index Pages, has sign up, user login and officer login features.
     
 <body>
 
+
  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -30,8 +31,8 @@ Index Pages, has sign up, user login and officer login features.
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="home.php">Home</a></li>
-        <li class="inactive"><a href="credits.php">Credits</a></li>
+        <li class="inactive"><a href="home.php">Home</a></li>
+        <li class="active"><a href="credits.php">Credits</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="userlogin.php">User Login  <i class="fa fa-user"></i></a></li>
@@ -41,19 +42,27 @@ Index Pages, has sign up, user login and officer login features.
   </div>
  </nav>
 
- <div class="container">
+ <!--<div class="container">
  	<div class="row">
  		<div class="col-lg-12">
  			<div class="content">
- 				<h1>Have a Complaint?</h1>
- 				<h3>Register Below &nbsp &nbsp<i class="fa fa-hand-o-down" aria-hidden="true"></i></h3>
- 				<hr>
-          <a href="registration.php" class="btn btn-default btn-lg" role="button" aria-pressed="true">Sign Up!</a>
+ 				<h3>DBMS Project by Rahul Hegde</h3>
+ 				
  			</div>
  		</div>
  	</div>
- </div>
+ </div>-->
+  <div style="margin-left: 8em;margin-top: 6em">
+      <h2><b>DBMS Project by</b></h2>
+      <h3>Rahul Hegde</h3>
+      <h4><li><a href="https://github.com/rahulhegde99">Github</a></li></h4>
+      <h4><li><a href="https://rahul-hegde.itch.io/">Itch.io</a></li></h4>
 
+      <h3>Gunashree</h3>
+      <h4><li><a href="https://github.com/rahulhegde99">Github</a></li></h4>
+      <h4><li><a href="https://rahul-hegde.itch.io/">Itch.io</a></li></h4>
+  </div>
+<!--wowza -->
 
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>

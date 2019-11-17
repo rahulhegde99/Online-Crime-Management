@@ -1,3 +1,9 @@
+<!-- Author: Rahul Hegde, Gunashree 
+      
+Will work only if a head has logged in with HQ ID and Password.
+Returns the details of a particular complaint ID.
+
+-->
 <!DOCTYPE html>
 <html>
 <head>

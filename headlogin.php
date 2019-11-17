@@ -1,3 +1,8 @@
+<!-- Author: Rahul Hegde, Gunashree 
+      
+Login page of headquarters.
+
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +86,7 @@ if(isset($_POST['s']))
    background-color: rgba(0,0,0,0.8);
    color: white;
    text-align: center;">
-  <h4 style="color: white;">&copy <b>Crime Portal 2018</b></h4>
+  <h4 style="color: white;">&copy <b>Police DBMS 2019</b></h4>
 </div>
 
 
