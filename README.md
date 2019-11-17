@@ -6,11 +6,12 @@ This is an online crime/police management system
  - [x] FIR Lodging
  - [x] Police Login
  - [x] Incharge Login
- - [x] Head Login
+ - [x] Headquarters Login
  - [x] Adding new police stations
  - [x] Adding new police officers
  - [x] Deleting police officers
  - [x] Assigment of cases
+ - [x] Complaint details for Users, Police, Incharge and Headquarters
  
 ## ISSUES ##
  - Redirecting back and forth between login and registration pages is not secure
