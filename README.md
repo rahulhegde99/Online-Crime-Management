@@ -15,11 +15,7 @@ This is an online crime/police management system
  - [x] Credits page
  
 ## ISSUES ##
- - Redirecting back and forth between login and registration pages is not secure
- 
- ## TODO ##
-  - [ ] Triggers and stored procedures
-  - [ ] Better graphics
+ - Redirecting back and forth between login and registration pages is not secure.
 
  ## INSTRUCTIONS ##
   1. Download PHP 5
