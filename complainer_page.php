@@ -103,7 +103,7 @@ if(isset($_POST['s'])){
 </head>
 
 <body style="background-size: cover;
-    background-image: url(home_bg1.jpeg);
+    background-image: url(home_bg.png);
     background-position: center;">
 	<nav  class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -183,7 +183,7 @@ if(isset($_POST['s'])){
 		</div>
 	</div>	
 </div>	
-<div style="position: relative;
+<!--<div style="position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -191,8 +191,8 @@ if(isset($_POST['s'])){
    background-color: rgba(0,0,0,0.8);
    color: white;
    text-align: center;">
-  <h4 style="color: white;">&copy <b>Crime Portal 2018</b></h4>
-</div>
+  <h4 style="color: white;">&copy <b>Police DBMS 2019</b></h4>
+</div>-->
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>

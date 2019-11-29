@@ -52,15 +52,17 @@ Credits page has sign up, user login and officer login features.
  		</div>
  	</div>
  </div>-->
-  <div style="margin-left: 8em;margin-top: 6em">
+  <div style="margin-top: 10em;text-align: center;">
       <h2><b>DBMS Project by</b></h2>
       <h3>Rahul Hegde</h3>
-      <h4><li><a href="https://github.com/rahulhegde99">Github</a></li></h4>
-      <h4><li><a href="https://rahul-hegde.itch.io/">Itch.io</a></li></h4>
+      <h4>USN: 1JS17CS125 </h4>
+      <h4><b><li><a href="https://github.com/rahulhegde99">Github</a></li></b></h4>
+      <h4><b><li><a href="https://rahul-hegde.itch.io/">Itch.io</a></li></b></h4>
 
       <h3>Gunashree</h3>
-      <h4><li><a href="https://github.com/rahulhegde99">Github</a></li></h4>
-      <h4><li><a href="https://rahul-hegde.itch.io/">Itch.io</a></li></h4>
+      <h4>USN: 1JS17CS129 </h4>
+      <h4><b><li><a href="https://github.com/guna-777">Github</a></li></b></h4>
+      <h4><b><li><a href="https://www.linkedin.com/in/gunashree-c-75a450182">Linked-In</a></li></b></h4>
   </div>
 <!--wowza -->
 

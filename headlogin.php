@@ -45,7 +45,7 @@ if(isset($_POST['s']))
 }
 ?> 
 </head>
-<body style="color: black;background-image: url(locker.jpeg);background-size: 100%;background-repeat: no-repeat;back">
+<body style="color: black;background-image: url(highcourt.jpg);background-size: 100%;background-repeat: no-repeat;back">
 	<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">

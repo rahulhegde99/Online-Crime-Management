@@ -46,17 +46,17 @@ if(isset($_POST['s']))
         {
             var sta2=document.getElementById("exampleInputEmail1").value;
             var sta3=document.getElementById("exampleInputPassword1").value;
-          var x2=sta2.indexOf(' ');
-var x3=sta3.indexOf(' ');
-    if(sta2!="" && x2>=0){
-    document.getElementById("exampleInputEmail1").value="";
-    document.getElementById("exampleInputEmail1").focus();
-      alert("Space Not Allowed");
-        }
-        else if(sta3!="" && x3>=0){
-    document.getElementById("exampleInputPassword1").value="";
-    document.getElementById("exampleInputPassword1").focus();
-      alert("Space Not Allowed");
+            var x2=sta2.indexOf(' ');
+            var x3=sta3.indexOf(' ');
+            if(sta2!="" && x2>=0){
+              document.getElementById("exampleInputEmail1").value="";
+              document.getElementById("exampleInputEmail1").focus();
+              alert("Space Not Allowed");
+            }
+            else if(sta3!="" && x3>=0){
+              document.getElementById("exampleInputPassword1").value="";
+              document.getElementById("exampleInputPassword1").focus();
+              alert("Space Not Allowed");
         }
 
 }
@@ -65,7 +65,7 @@ var x3=sta3.indexOf(' ');
 	<title>Complainant Login</title>
 </head>
 <body style="background-size: cover;
-    background-image: url(regi_bg.jpeg);
+    background-image: url(townhall.jpg);
     background-position: center;">
 	<nav class="navbar navbar-default navbar-fixed-top" style="height: 60px;">
   <div class="container">

@@ -134,7 +134,7 @@
    background-color: rgba(0,0,0,0.8);
    color: white;
    text-align: center;">
-  <h4 style="color: white;">&copy <b>Crime Portal 2018</b></h4>
+  <h4 style="color: white;">&copy <b>Police DBMS 2019</b></h4>
 </div>
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>

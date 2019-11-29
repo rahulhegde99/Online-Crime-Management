@@ -12,6 +12,7 @@ Index Pages, has sign up, user login and officer login features.
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="clock.css">
     
 </head>
     
@@ -45,14 +46,51 @@ Index Pages, has sign up, user login and officer login features.
  	<div class="row">
  		<div class="col-lg-12">
  			<div class="content">
- 				<h1>Have a Complaint?</h1>
- 				<h3>Register Below &nbsp &nbsp<i class="fa fa-hand-o-down" aria-hidden="true"></i></h3>
+ 				<h1>Are you a victim of a crime?</h1>
+ 				<h3>Register Below&nbsp &nbsp<i class="fa fa-hand-o-down" aria-hidden="true"></i></h3>
  				<hr>
           <a href="registration.php" class="btn btn-default btn-lg" role="button" aria-pressed="true">Sign Up!</a>
  			</div>
  		</div>
  	</div>
  </div>
+
+
+ <div id="MyClockDisplay"; style="color:#eeebeb;margin-left: 7.6em;margin-top: -5.5em;text-align: right;" class="clock" onload="showTime()"></div>
+ <div style="color:#b8b7b7;position:absolute;margin-left: 48.6em;font-size: 20px;margin-top: -20em;text-align: left">
+ <b><script> document.write(new Date().toDateString()); </script></b></div>
+
+
+ <script type="text/javascript">  
+   function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+showTime();
+</script>
 
 
 

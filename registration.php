@@ -18,11 +18,11 @@ if(isset($_POST['s'])){
         $mob=$_POST['mobile_number'];
         // $password=md5($u_pass);
         $reg="insert into user values('$u_name','$u_id','$u_pass','$u_addr','$a_no','$gen','$mob')";
-        mysql_select_db("crime_portal");
+        $db=mysql_select_db("crime_portal",$con);
         $res=mysql_query($reg,$con);
         if(!$res)
         {
-          $message1 = "User Already Exist";
+          $message1 = "User Already Exists";
           echo "<script type='text/javascript'>alert('$message1');</script>";
         }
         else

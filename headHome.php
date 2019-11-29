@@ -4,14 +4,15 @@ Will work only if a head has logged in with HQ ID and Password.
 Has search bars to search using case ID or search with location. 
 
 -->
+
 <!DOCTYPE html>
 <html>
 <head>
     
 <?php
 session_start();
-    if(!isset($_SESSION['x']))
-        header("location:headlogin.php");
+  if(!isset($_SESSION['x']))
+    header("location:headlogin.php");
     
     $conn=mysql_connect("localhost","root","");
     if(!$conn)
@@ -39,8 +40,16 @@ session_start();
         header("location:headHome1.php");
     }
     }
-    
-        
+
+    if(isset($_POST['s3']))
+    {
+        header("location:export.php");
+    }
+
+    if(isset($_POST['s4']))
+    {
+        header("location:exporttraffic.php");
+    }   
 ?>
 
 	<title>HQ Homepage</title>
@@ -114,7 +123,11 @@ session_start();
                         ?>
      </select>
         
-          <input class="btn btn-primary" type="submit" value="Search" name="s2" style="margin-top: 10px; margin-left: 11%;">
+          <input class="btn btn-primary" type="submit" value="Search" name="s2" style="margin-top: 10px; margin-left: 11%;"><br><br>
+
+          <input class="btn btn-primary" type="submit" value="Generate User Logs" name="s3" style="margin-top: -20px; margin-left: 6%;">
+
+          <input class="btn btn-primary" type="submit" value="Traffic Logs" name="s4" style="margin-top: 90px; margin-left: -15.5%;">
     </form>
  </div>
     
@@ -125,7 +138,7 @@ session_start();
    background-color: rgba(0,0,0,0.5);
    color: white;
    text-align: center;">
-  <h4 style="color: white;">&copy <b>Crime Portal 2018</b></h4>
+  <h4 style="color: white;">&copy <b>Police DBMS 2019</b></h4>
 </div>
     
 

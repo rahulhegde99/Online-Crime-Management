@@ -80,7 +80,7 @@ if(isset($_POST['s'])){
 </head>
 
 <body style="background-size: cover;
-    background-image: url(home_bg1.jpeg);
+    background-image: url(home_bg.png);
     background-position: center;">
 	<nav  class="navbar navbar-default navbar-fixed-top">
   <div class="container">

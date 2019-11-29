@@ -63,7 +63,7 @@ function f1()
     
     
 </head>
-<body style="color: black;background-image: url(locker.jpeg);background-size: 100%;background-repeat: no-repeat;">
+<body style="color: black;background-image: url(cbihq.jpg);background-size: 100%;background-repeat: no-repeat;">
 	<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
